@@ -14,18 +14,9 @@ The goal is to improve **safety, awareness, and independence** by ensuring that 
 
 # Problem Statement
 
-Over **1.5 billion people worldwide** experience some degree of hearing loss [^1]. Many of these individuals face challenges detecting important environmental sounds such as:
-
-- Fire alarms
-- Emergency sirens
-- Door knocks
-- Baby crying
-- Breaking glass
-
-These sounds are essential for safety and daily awareness.
+Over **1.5 billion people worldwide** experience some degree of hearing loss [^1]. Many of these individuals face challenges detecting important environmental sounds such as fire alarms, emergency sirens, door knocks, baby crying and breaking glass. These sounds are essential for safety and daily awareness.
 
 Existing assistive technologies often fall short because they:
-
 - Treat all sounds equally without prioritizing urgency
 - Provide delayed or unreliable alerts
 - Lack clear visual interfaces
@@ -33,31 +24,25 @@ Existing assistive technologies often fall short because they:
 
 As a result, Deaf and Hard-of-Hearing individuals may miss critical auditory cues, increasing safety risks and reducing independence [^2] [^3].
 
-**PrioritySound addresses this problem by detecting, prioritizing, and visually representing important sounds in real time.**
-
+**PrioritySound addresses this problem by detecting, classifying, prioritizing, and visually representing important sounds in real time.**
 ---
-
 # Key Features
-
 PrioritySound combines machine learning and accessible design to deliver intelligent sound detection.
-
-### Live Sound Detection
+#### Live Sound Detection
 Continuously monitors microphone input to detect environmental sounds in real time.
-
-### Machine Learning Classification
+#### Machine Learning Classification
 Uses trained deep learning models to classify different types of sounds.
-
-### Priority-Based Alerts
+#### Priority-Based Alerts
 Sounds are categorized by urgency:
 
-- 🔴 **Emergency**
-- 🟠 **High**
-- 🟡 **Medium**
-- 🟢 **Low**
+- **Emergency**
+- **High**
+- **Medium**
+- **Low**
 
 Color-coded alerts help users quickly understand the importance of a sound.
 
-### Real-Time Dashboard
+#### Real-Time Dashboard
 A visual dashboard displays:
 
 - Current sound alerts
@@ -66,10 +51,10 @@ A visual dashboard displays:
 
 The interface is designed to be clear and accessible for Deaf and Hard-of-Hearing users.
 
-### Augmented Reality Sound Mapping
+#### Augmented Reality Sound Mapping
 PrioritySound overlays sound alerts onto a **live webcam feed**, helping users understand where sounds are coming from.
 
-### Customizable Modes
+#### Customizable Modes
 Users can switch between environment-specific modes that adjust sound priorities and alert behavior.
 
 ---
@@ -179,8 +164,8 @@ Each mode filters out low-importance noise and ensures users receive the most re
 
 1. Clone the repository:
    ```
-   git clone https://github.com/shreshmello/PrioritySound.git
-   cd software-design-code
+   git clone https://github.com/26133-3wtsa/SoftwareDevelopment26133-3.git
+   cd SoftwareDevelopment26133-3
    ```
 
 2. Install the required dependencies:
